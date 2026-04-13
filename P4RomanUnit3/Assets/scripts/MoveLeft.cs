@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
 {
+    private float speed = 30;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
     }
-    private float speed = 20;
+   
     // Update is called once per frame
     void Update()
     {
